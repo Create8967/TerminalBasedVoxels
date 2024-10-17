@@ -22,6 +22,8 @@ gcc voxel_min.c -lm -o voxel_min
 For the minimal Voxel Game:
 run with ./voxel_min [screen width (in text characters)] [height (in text characters)] [max render distance (100 is usually fine)] [chunk radius (chunks to load in all directions)] [optional: world seed]
 
+Ex: ./voxel_min 170 48 100 3 19524
+
 WASD to move around
 C to place the current block in front of you (indicated by cursor in middle of screen)
 X to break the block in front of you
